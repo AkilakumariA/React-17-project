@@ -1,2 +1,2 @@
-# React-17-project
+# react-17-project
 just learning
