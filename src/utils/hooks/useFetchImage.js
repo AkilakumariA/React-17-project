@@ -18,7 +18,7 @@ export default function useFetchImage(page, searchTerm) {
         });
     }
     function fetchSearch(res) {
-        page > 1 ? setImages([...Image, ...res.data.results]) : setImages([...res.data.results]);
+        page > 1 ? setImages([...Images, ...res.data.results]) : setImages([...res.data.results]);
 
     }
     function fetchRandom(res) {
